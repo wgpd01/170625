@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsive Design Lab</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+
+body {
+        margin: 0px;   /*緊貼頂部(上下左右)，沒有空隙*/
+        background-color:#212663; /*背景色設定*/
+        }
+
+#wrapper {
+        width: 800px;   /*寬度設定為800px*/
+        margin: auto;   /*版面居中對齊*/
+        font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+        color: #C6C6C6;  /*文字顏色設定*/
+        border: 6px solid #003; /*網頁做外框的設定*/
+        }
+
+#header{
+            background-color:#069;
+            height: 110px; /*高度設定，設定之高度加上下內距padding等時實際高度，110px+20px+20px=150px*/
+            padding:20px;  /*內距設定*/
+        }
+
+#content {
+        /*可不用設定寬度和高度，由文字來決定高度*/
+        background-color:#D7E1FF;  /*背景色設定*/
+        font-size: 14px; /*字體大小*/
+        line-height: 2em;   /*字體行間為兩個字距*/
+        color:#666; /*文字顏色設定*/
+        padding: 30px; /*文字與#content間的內距*/
+        }
+
+#footer {
+        /*可不用設定寬度和高度，由文字來決定高度*/
+        background-color:#069;     
+        font-size: 12px; /*文字尺寸設定*/
+        line-height: 1.5em; /*文字行高設定為1.5字高*/
+        color: #FFF; /*文字顏色設定*/
+        padding: 20px; /*內距設定*/
+       }
+
+h1{
+      font-size:30px;
+      color:#FFF;
+    }
+
+h3{
+      font-size:18px;
+      color:#5B63C4;
+  }
+    
+</style>
+
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<h1>Responsive Design Lab</h1>
+			隨著各種裝置的各種解析度自動調整版面
+		</div>
+
+		<div id="content">
+			<h3>Responsive Design Lab</h3>
+			<p>
+				手動調整瀏覽器視窗的寬度，看看排版畫面有沒有變化，是否有文字漏在畫面之外。
+			</p>
+			<p>
+				如果網頁在設計時能套用Responsive Design的設計概念，讓排版畫面隨著不同解析度自動調整版型，就能讓同一個網頁順利運行於各種裝置，包括智慧手機、平版。
+			</p>
+		</div>
+
+		<div id="footer">
+		  Copyright &copy; ... &nbsp; Contact information, etc.
+		</div>
+
+	</div>
+</body>
+</html>
